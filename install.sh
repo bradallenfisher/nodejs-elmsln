@@ -1,8 +1,13 @@
 #!/bin/bash
 
 #for RHEL type OS.
-#install node
 
+#start the build
+cd nodejs-elmsln
+chmod 700 install.sh
+../install.sh
+
+#install node
 curl --silent --location https://rpm.nodesource.com/setup | bash -
 yum -y install nodejs
 yum -y install gcc-c++ make
