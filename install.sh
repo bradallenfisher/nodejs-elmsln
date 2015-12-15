@@ -14,7 +14,7 @@ yum -y install gcc-c++ make
 yum -y groupinstall 'Development Tools'
 
 #Example Chat project
-git clone https://github.com/bradallenfisher/chat-example.git
+git clone https://github.com/bradallenfisher/chat.git
 
 cd chat-example
 npm install --save express
