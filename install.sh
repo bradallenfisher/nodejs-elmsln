@@ -19,6 +19,6 @@ git clone https://github.com/bradallenfisher/chat.git
 cd chat
 npm install --save express
 npm install --save socket.io
-npm install forever
+npm -g install forever
 
 forever start index.js
