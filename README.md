@@ -1,6 +1,6 @@
 # nodejs-elmsln
 ## To Test
-- spin up on digital ocean or linode and go to IP:3000
+- spin up on digital ocean or linode and go to IP or DNS name.
 - start typing
 
 
