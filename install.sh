@@ -20,5 +20,6 @@ cd chat
 npm install --save express
 npm install --save socket.io
 npm -g install forever
-
+npm -g install db-query
+npm -g install pg
 forever start index.js
