@@ -2,7 +2,6 @@
 
 #for RHEL type OS.
 #install node
-yum install git
 
 curl --silent --location https://rpm.nodesource.com/setup | bash -
 yum -y install nodejs
