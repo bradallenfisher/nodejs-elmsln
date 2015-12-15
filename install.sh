@@ -14,3 +14,5 @@ git clone https://github.com/rauchg/chat-example.git
 cd chat-example
 npm install --save express
 npm install --save socket.io
+
+node index
